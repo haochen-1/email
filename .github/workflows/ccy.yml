@@ -2,7 +2,7 @@ name: ccy-helper
 
 on:
   schedule:
-    - cron: "20 08 * * *"
+    - cron: "30 23 * * *"
 jobs:
   send:
     runs-on: ubuntu-latest
