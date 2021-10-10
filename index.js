@@ -35,6 +35,7 @@ async function init() {
       `https://devapi.qweather.com/v7/indices/1d?key=${weatherKey}&location=${location}&type=${type}`
     );
     const lifeData = await lifeRes.json();
+    console.log(lifeData);
 
     // 获取one一个文案及图片
     const oneRes = await fetch(

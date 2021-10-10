@@ -49,7 +49,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               ${daily[0].text}
             </li>
           </ul>
-          <div style="text-align:center;margin-top: 50px;color:pink">by皓辰 - Web前端开发</div>
+          <div style="text-align:right;margin-top: 10px;color:rgba(0,0,0,.2);margin-right:5px">—皓辰程序猿</div>
         </div>
       </div>
     </body>
