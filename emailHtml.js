@@ -13,7 +13,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
       <div>
         <!-- 天数 -->
         <div>
-          <p>今天是在一起的第${lovingDays}天！</p>
+          <p>今天是我们在一起的第${lovingDays}天！</p>
         </div>
         <!-- 图片 -->
         <div>
@@ -32,7 +32,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <!-- 天气 -->
         <div>
           <p>
-            <b>今日气温:</b>
+            <b>南宁今日气温:</b>
             <span>${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C</span>
           </p>
           <ul>
@@ -49,6 +49,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
               ${daily[0].text}
             </li>
           </ul>
+          <div style="text-align:center;margin-top: 50px;color:pink">by皓辰 - Web前端开发</div>
         </div>
       </div>
     </body>
